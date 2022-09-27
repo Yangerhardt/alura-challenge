@@ -1,3 +1,4 @@
+@import url(/css/global.css);
 body {
   margin: 0;
   padding: 0;
@@ -18,11 +19,15 @@ body {
   color: #a2a2a2;
 }
 
+.pesquisa:focus {
+  outline: none;
+}
+
 .btn-header {
   border-radius: none;
-  border: 1px solid #2a7ae4;
+  border: 1px solid var(--corPadrao);
   background-color: #fff;
-  color: #2a7ae4;
+  color: var(--corPadrao);
   padding: 8px 48px;
   font-size: 16px;
 }

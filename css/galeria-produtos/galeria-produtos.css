@@ -1,0 +1,54 @@
+@import url(/css/global.css);
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.top-section-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.top-section-gallery h3 {
+  color: var(--corTexto);
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.top-section-gallery p {
+  color: var(--corPadrao);
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.produto {
+  transform: scale(0.92);
+}
+
+.produto-img {
+  margin-bottom: 6px ;
+}
+
+.produto p {
+  margin: 0 0 4px 0;
+}
+
+.nome-produto, .preco-produto {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--corTexto);
+}
+
+.preco-produto, .ver-produto {
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.ver-produto {
+  color: var(--corPadrao);
+}

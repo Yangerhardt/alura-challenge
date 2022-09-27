@@ -1,18 +1,38 @@
+@import url(/css/global.css);
+
 .banner {
   background-image: url(/public/banner-image.png);
   background-repeat: no-repeat;
   height: 352px;
-  width: 100%;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .banner-text {
   text-align: start;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
+  left: 10%;
 }
 
 .banner-text h1,
 .banner-text h4 {
   color: #fff;
+}
+
+.banner-text h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.banner-text h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.banner-text button {
+  color: #fff;
+  background-color: var(--corPadrao);
+  border: none;
+  padding: 12px;
 }
