@@ -1,0 +1,18 @@
+.banner {
+  background-image: url(/public/banner-image.png);
+  background-repeat: no-repeat;
+  height: 352px;
+  width: 100%;
+  position: relative;
+}
+
+.banner-text {
+  text-align: start;
+  position: absolute;
+  bottom: 10%;
+}
+
+.banner-text h1,
+.banner-text h4 {
+  color: #fff;
+}
