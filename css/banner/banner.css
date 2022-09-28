@@ -2,16 +2,18 @@
 
 .banner {
   background-image: url(/public/banner-image.png);
+  background-attachment: scroll;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 352px;
   position: relative;
-  margin-bottom: 80px;
 }
 
 .banner-text {
   text-align: start;
   position: absolute;
-  bottom: 20%;
+  bottom: 8%;
   left: 10%;
 }
 
@@ -35,4 +37,19 @@
   background-color: var(--corPadrao);
   border: none;
   padding: 12px;
+}
+
+@media (max-width: 769px) {
+  .banner-text {
+    left: 3%;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-text h1 {
+    font-size: 32px;
+  }
+  .banner-text h4 {
+    font-size: 18px;
+  }
 }

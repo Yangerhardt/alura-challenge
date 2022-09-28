@@ -6,10 +6,11 @@ body {
 }
 
 .header {
-  height: 115px;
+  margin-top: 24px;
+  text-align: end;
 }
 
-.pesquisa {
+.header input {
   width: 400px;
   padding: 8px 16px;
   background-color: #f5f5f5;
@@ -30,5 +31,24 @@ body {
   color: var(--corPadrao);
   padding: 8px 48px;
   font-size: 16px;
+}
+
+.header-search {
+  width: 24px;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header {
+    margin-top: 0;
+  }
+  .header input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-search {display: inline-block;}
+  .header input{display: none;}
 }
 

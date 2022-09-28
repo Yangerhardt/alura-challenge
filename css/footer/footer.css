@@ -3,15 +3,17 @@
 footer{
   background-color: var(--corFundo);
   height: 400px;
+  width: 100%;
   margin-top: 60px;
   display: flex;
   justify-content: center;
 }
 
 .footer-left {
-  display: flex;
+  display: flex;  
   margin-top: 60px;
   justify-content: space-evenly;
+  margin-right: 17% ;
 }
 
 .footer-left-link ul li {
@@ -76,4 +78,38 @@ footer{
   height: 80px;
 text-align: center;
 margin-top: 24px;
+}
+
+@media (max-width: 769px) {
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 10%;
+  }
+  .fale-conosco-nome,
+  .fotter-texto-mensagem {
+    width: 360px;
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+
+  .footer-left {
+    margin-top: 32px;
+  }
+
+  .footer-right {
+    margin-top: 16px;
+  }
+
+  .footer-botao {
+    margin-bottom: 16px;
+  }
 }

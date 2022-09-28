@@ -52,3 +52,17 @@
 .ver-produto {
   color: var(--corPadrao);
 }
+
+@media (max-width: 1200px) {
+  .limite {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .produto {
+    transform: scale(0.9);
+  }
+ 
+}
+
