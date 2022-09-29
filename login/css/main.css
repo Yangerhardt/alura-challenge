@@ -1,0 +1,68 @@
+@import url(/pagina-inicial/css/global.css);
+
+.header-login {
+  margin-left: 160px;
+  height: 80px;
+}
+
+.header-login input {
+  margin-right: 300px;
+}
+
+.iniciar-secao {
+  height: 600px;
+  background-color:  #f1f1f1;
+  position: relative;
+}
+
+.iniciar-secao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.iniciar-secao-container h4 {
+  font-size: 20px;
+}
+
+.iniciar-secao-container input {
+  width: 440px;
+  padding: 16px;
+  border: none;
+  border-bottom: solid 1.25px #c2c2c2c7;
+  margin-top: 24px;
+  border-radius: 2px;
+}
+
+.iniciar-secao-container input::placeholder {
+  color: #c2c2c2c7;
+}
+
+.iniciar-secao-container button {
+  background-color: var(--corPadrao);
+  color: #fff;
+  border: none;
+  margin-top: 24px;
+  padding: 16px;
+  width: 440px;
+}
+
+
+footer {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .header-login input {
+    margin-right: 80px  }
+}
+
+@media (max-width: 540px) {
+  .header-login {
+    margin-left: 0;
+    height: 100%;
+  }
+}

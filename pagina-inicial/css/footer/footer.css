@@ -1,4 +1,4 @@
-@import url(/css/global.css);
+@import url(/pagina-inicial/css/global.css);
 
 footer{
   background-color: var(--corFundo);
@@ -53,6 +53,10 @@ footer{
   border: none;
 }
 
+.fotter-texto-mensagem::placeholder {
+  color: #c2c2c2c7;
+}
+
 .fale-conosco-nome input:focus,
 .fotter-texto-mensagem {
   outline: none;
@@ -80,7 +84,7 @@ text-align: center;
 margin-top: 24px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1000px) {
   .footer-left {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
-@import url(/css/global.css);
+@import url(/pagina-inicial/css/global.css);
 
 .banner {
-  background-image: url(/public/banner-image.png);
+  background-image: url(/pagina-inicial/public/banner-image.png);
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
