@@ -1,4 +1,4 @@
-@import url(/pagina-inicial/css/global.css);
+@import url(/pagina-inicial/pagina-inicial/css/global.css);
 
 .header-login {
   margin-left: 160px;
@@ -11,7 +11,7 @@
 
 .iniciar-secao {
   height: 600px;
-  background-color:  #f1f1f1;
+  background-color: #f1f1f1;
   position: relative;
 }
 
@@ -50,19 +50,38 @@
   width: 440px;
 }
 
-
 footer {
   margin-top: 0;
 }
 
+@media (min-width: 1200px) {
+  .iniciar-secao-container {
+    left: 42%;
+  }
+}
+
 @media (max-width: 800px) {
   .header-login input {
-    margin-right: 80px  }
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .iniciar-secao-container {
+    left: 13%;
+  }
 }
 
 @media (max-width: 540px) {
   .header-login {
     margin-left: 0;
     height: 100%;
+  }
+  .iniciar-secao-container input,
+  .iniciar-secao-container button {
+    width: 100%;
+  }
+  .iniciar-secao-container {
+    left: 25%;
   }
 }

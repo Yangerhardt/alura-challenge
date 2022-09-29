@@ -1,0 +1,39 @@
+@import url(/pagina-inicial/css/global.css);
+
+.produtos {
+  background-color: var(--fundoProdutos);
+  padding: 24px 0;
+  margin-top: 24px;
+}
+
+.descricao-produto {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--corTexto);
+}
+
+.produto-img img{
+  position: relative;
+}
+.img-icons {
+  position: fixed;
+  top: 4px;
+  left: 120px;
+}
+
+.delete-icon {
+  margin-right: 16px;
+}
+
+footer {
+  margin-top: 0;
+}
+
+@media (max-width: 540px) {
+  .top-section-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+}
