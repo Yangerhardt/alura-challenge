@@ -48,9 +48,14 @@ footer{
   margin-bottom: 6px;
 }
 
-.fale-conosco-nome input,
+.fale-conosco-nome input {
+  border: none;
+}
+
+.fale-conosco-nome,
 .fotter-texto-mensagem {
   border: none;
+  border-bottom: solid 1.25px #c2c2c2c7;
 }
 
 .fotter-texto-mensagem::placeholder {
